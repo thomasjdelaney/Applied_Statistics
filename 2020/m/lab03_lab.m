@@ -149,14 +149,14 @@ end
 
 stem(true_p, 40, '--k', 'Linewidth', 2);
 hold on
-stem(eCIs(1, 1), 5, '--b', 'Linewidth', 3,'HandleVisibility','off');
-stem(eCIs(1, 2), 5, '--b', 'Linewidth', 3,'HandleVisibility','off');
+stem(eCIs(1, 1), 40, '--b', 'Linewidth', 3,'HandleVisibility','off');
+stem(eCIs(1, 2), 40, '--b', 'Linewidth', 3,'HandleVisibility','off');
 hold on
-stem(eCIs(2, 1), 5, '--r', 'Linewidth', 3,'HandleVisibility','off');
-stem(eCIs(2, 2), 5, '--r', 'Linewidth', 3,'HandleVisibility','off');
+stem(eCIs(2, 1), 40, '--r', 'Linewidth', 3,'HandleVisibility','off');
+stem(eCIs(2, 2), 40, '--r', 'Linewidth', 3,'HandleVisibility','off');
 hold on
-stem(eCIs(3, 1), 5, '--y', 'Linewidth', 3,'HandleVisibility','off');
-stem(eCIs(3, 2), 5, '--y', 'Linewidth', 3,'HandleVisibility','off');
+stem(eCIs(3, 1), 40, '--y', 'Linewidth', 3,'HandleVisibility','off');
+stem(eCIs(3, 2), 40, '--y', 'Linewidth', 3,'HandleVisibility','off');
 
 % compute the z-CI (Lecture 3, Eq. 12) for each sample
 zCIs1 = zeros(length(ns), S); % lower edges
